@@ -1,6 +1,18 @@
 # sdc.broadband.ookla
 Staging repository for extracting and chunking [ookla data](https://github.com/teamookla/ookla-open-data)
 
+## Graph
+```mermaid
+graph LR;
+    year=2022-->Ookla;
+    Ookla-->avg_d_mbps;
+    Ookla-->avg_u_mbps;
+    Ookla-->tests;
+    Ookla-->devices;
+    Ookla-->q;
+    Ookla-->year;
+```
+
 ## Column Descriptions
 Descriptions of columns [here](https://github.com/teamookla/ookla-open-data)
 | Field Name        | Type        | Description                                                                                                                             | Notes                                                                                                                                                                              |
@@ -32,16 +44,4 @@ Descriptions of columns [here](https://github.com/teamookla/ookla-open-data)
 1790  130939703001060      33.983       4.801      1        1         616  2022  4
 1791  130939703001058      33.983       4.801      1        1         616  2022  4
 1792  130939703001059      33.983       4.801      1        1         616  2022  4
-```
-
-## Graph
-```mermaid
-graph TD;
-    current_year-1-->Ookla;
-    Ookla-->avg_d_mbps;
-    Ookla-->avg_u_mbps;
-    Ookla-->tests;
-    Ookla-->devices;
-    Ookla-->q;
-    Ookla-->year;
 ```
