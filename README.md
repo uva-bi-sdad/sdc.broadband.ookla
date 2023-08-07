@@ -33,3 +33,15 @@ Descriptions of columns [here](https://github.com/teamookla/ookla-open-data)
 1791  130939703001058      33.983       4.801      1        1         616  2022  4
 1792  130939703001059      33.983       4.801      1        1         616  2022  4
 ```
+
+## Graph
+```mermaid
+graph TD;
+    current_year-1-->Ookla;
+    Ookla-->avg_d_mbps;
+    Ookla-->avg_u_mbps;
+    Ookla-->tests;
+    Ookla-->devices;
+    Ookla-->q;
+    Ookla-->year;
+```
