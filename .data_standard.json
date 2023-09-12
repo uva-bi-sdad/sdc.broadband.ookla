@@ -1,8 +1,0 @@
-{
-    "REQUIRED_COL_NAMES": [
-        "GEOID20",  "avg_d_mbps",  "avg_u_mbps",  "tests",  "devices",  "avg_lat_ms",  "year",  "q"
-    ],
-    "GEOID_COLS": [
-        "GEOID20"
-    ]
-}
